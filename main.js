@@ -40,14 +40,14 @@ directionalLight.position.set(1, 3, 5); // Set the direction of the light
 scene.add(directionalLight);
 
 
-camera.position.set(0, 0, 13); // Fix the syntax error here
+camera.position.set(0, 0, 13); // last three changes distance
 
 function animate() {
     requestAnimationFrame(animate);
 
     if (model) {
-        model.rotation.z += 0.009;
-        //model.rotation.y += 0.01;
+        model.rotation.z += 0.009; // speed 
+        model.rotation.y += 0.01;
     }
 
     renderer.render(scene, camera);
