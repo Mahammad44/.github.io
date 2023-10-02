@@ -1,4 +1,4 @@
-import * as THREE from './three';
+import * as THREE from './three.js';
 import { GLTFLoader } from './three/addons/loaders/GLTFLoader.js';
 
 const scene = new THREE.Scene();
